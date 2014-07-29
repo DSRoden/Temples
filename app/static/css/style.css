@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+#band {
+  margin:0;
+  height: 500px; 
+  background-image: url(/images/temples-wide.jpg);
+  background-size:cover;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/**********
+ Navigation
+ **********/
+
+nav {
+  text-align: center;
+  padding: 20px;
+  background-color:#666666;
+  /*border: 1px solid black;*/
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: black;
+  font-weight: 500;
+  padding: 0 50px;
+}
+
+#red:hover{
+  color: #ff6699;
+}
+
+#green:hover{
+  color: #669900;
+}
+
+#orange:hover{
+  color: #FF6633;
+}
+
+#purple:hover{
+  color: #9966FF;
+}
+
+
+/********
+ News
+ *******/
+
+#news {
+  margin:5;
+  float: left;
+  list-style:none;
+}
+
+#news li {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: text-top; 
+  background-color: #CCCCCC;
+  padding: 2px;
+}
+
+#news li p {
+ margin: 10px;
+}
+
+/*******
+ Main
+ ******/
+body {
+  background-color: black;
+}
+
+/********
+ Footer
+ *******/
+
+footer {
+  font-size: 13px;
+  padding: 10px;
+  margin: 0;
+  color: white;
+  text-align: center;
+  clear: both;
+  background-color: #333333;
+  height:20px;
+ 
+}
+
+#story {
+  font-size: 13px;
+  background-color: white;
+  height: 40px;
+  padding: 10px;
+}
+
+#story p {
+  padding: 10px;
+}
+
+#albums li{
+  display: inline-block;
+  float: right;
+  background-color: #CCCCCC;
+  padding: 2px;
+  margin-bottom: 5px;
+}
+
+#albums li p{
+  margin: 10px;
+}
+
+.date {
+  font-size: 13px;
+  color: white;
+}
+
+.location{
+  color: white;
+}
